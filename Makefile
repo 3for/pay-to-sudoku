@@ -17,6 +17,7 @@ all:
 	mkdir -p target/release
 	cp libmysnark.so target/debug
 	cp libmysnark.so target/release
+	cp libmysnark.so /usr/local/lib/
 
 clean:
 	$(RM) snark/sha256.o
