@@ -29,6 +29,7 @@ cd $DEPSRC
 
 [ ! -d libsnark ] && git clone $LIBSNARK_SRC libsnark
 cd libsnark
+git checkout deprecated-master
 git pull
 #if [ "$CURVE" == "BN128" ]; then
 #    # TODO: submit -fPIC patch to ate-pairing
