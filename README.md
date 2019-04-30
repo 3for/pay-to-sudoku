@@ -16,10 +16,10 @@ make
 rm Cargo.lock
 rustup install nightly
 cargo +nightly build
-cargo run gen 2 # generate circuit for 2^2 x 2^2 puzzle
-cargo run test 2 # test the proofs
-cargo run serve 2 # run a server on port 25519 for buying solutions
-cargo run client 2 # run a client for selling solutions
+cargo +nightly run gen 2 # generate circuit for 2^2 x 2^2 puzzle
+cargo +nightly run test 2 # test the proofs
+cargo +nightly run serve 2 # run a server on port 25519 for buying solutions
+cargo +nightly run client 2 # run a client for selling solutions
 ```
 
 # circuit description for some NxN puzzle:
