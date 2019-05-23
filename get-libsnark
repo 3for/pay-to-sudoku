@@ -38,3 +38,4 @@ git pull
 make clean
 make lib $LIBSNARK_FLAGS
 make install PREFIX=$DEPINST $LIBSNARK_FLAGS
+

@@ -107,7 +107,7 @@ fn main() {
             println!("\tVerifying key...");
             let vk = decompress(&format!("{}.vk", n));
 
-            println!("\tDeserializing...");
+            println!("\t");
 
             get_context(&pk, &vk, n)
         };
