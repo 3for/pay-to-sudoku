@@ -22,6 +22,12 @@ cargo +nightly run serve 2 # run a server on port 25519 for buying solutions
 cargo +nightly run client 2 # run a client for selling solutions
 ```
 
+To get backtrace for panic, set `export RUST_BACKTRACE=1` before running.
+
+```
+export RUST_BACKTRACE=1
+```
+
 # circuit description for some NxN puzzle:
 
 **primary inputs**: sodoku puzzle `P`, key commitment `C`, encrypted solution `E`
